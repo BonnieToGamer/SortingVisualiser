@@ -2,8 +2,7 @@ from sortRecorder import SortRecorder
 
 class InsertionSort(SortRecorder):
     def __init__(self, element_array):
-        super().__init__()
-        self.array = element_array.copy()
+        super().__init__(element_array)
     
     def run(self):
         self._sort()

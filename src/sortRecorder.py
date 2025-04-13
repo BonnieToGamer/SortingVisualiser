@@ -1,6 +1,7 @@
 class SortRecorder:
-    def __init__(self):
+    def __init__(self, element_array):
         self.steps = []
+        self.array = element_array
     
     def run(self):
         pass
